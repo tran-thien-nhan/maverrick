@@ -523,3 +523,6 @@ small {
 .nav-item>a{
     color: white!important;
 }
+label{
+    color:black;
+}
