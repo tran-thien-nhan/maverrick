@@ -1,0 +1,544 @@
+{
+  "products": [
+    {
+      "name": "Baby's t-shirts 1",
+      "image": "images/ao-thun-con-nit/3_den_3fc54c241e444b11a15b5898857c0301_master.png",
+      "price": 25,
+      "quantity": 1,
+      "type": "baby-t-shirt",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Baby's t-shirts 2",
+      "image": "images/ao-thun-con-nit/aocam.png",
+      "price": 30,
+      "quantity": 1,
+      "type": "baby-t-shirt",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Baby's t-shirts 3",
+      "image": "images/ao-thun-con-nit/do.png",
+      "price": 35,
+      "quantity": 1,
+      "type": "baby-t-shirt",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Men's t-shirt 1",
+      "image": "images/ao-thun-nam/aothunnam1.jpg",
+      "price": 20,
+      "quantity": 1,
+      "type": "men-t-shirt",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Men's t-shirt 2",
+      "image": "images/ao-thun-nam/aothunnam2.png",
+      "price": 25,
+      "quantity": 1,
+      "type": "men-t-shirt",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Men's t-shirt 3",
+      "image": "images/ao-thun-nam/aothunnam3.jpg",
+      "price": 30,
+      "quantity": 1,
+      "type": "men-t-shirt",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Men's t-shirt 4",
+      "image": "images/ao-thun-nam/aothunnam4.jpg",
+      "price": 35,
+      "quantity": 1,
+      "type": "men-t-shirt",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Men's t-shirt 5",
+      "image": "images/ao-thun-nam/product-6.jpg",
+      "price": 40,
+      "quantity": 1,
+      "type": "men-t-shirt",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Men's tie 1",
+      "image": "images/ca-vat/cavat1.jpg",
+      "price": 45,
+      "quantity": 1,
+      "type": "men-tie",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Men's tie 2",
+      "image": "images/ca-vat/cavat2.jpg",
+      "price": 50,
+      "quantity": 1,
+      "type": "men-tie",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Men's tie 3",
+      "image": "images/ca-vat/cavat3.jpg",
+      "price": 25,
+      "quantity": 1,
+      "type": "men-tie",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Men's tie 4",
+      "image": "images/ca-vat/cavat4.jpg",
+      "price": 30,
+      "quantity": 1,
+      "type": "men-tie",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Women's dress 1",
+      "image": "images/dam/damnu1.png",
+      "price": 35,
+      "quantity": 1,
+      "type": "women-dress",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Women's dress 2",
+      "image": "images/dam/damnu2.png",
+      "price": 40,
+      "quantity": 1,
+      "type": "women-dress",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Women's dress 3",
+      "image": "images/dam/damnu3.png",
+      "price": 45,
+      "quantity": 1,
+      "type": "women-dress",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Women's dress 4",
+      "image": "images/dam/mac-vay-2-ohay-tv-43545.jpg",
+      "price": 50,
+      "quantity": 1,
+      "type": "women-dress",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Baby's dress 1",
+      "image": "images/dam-tre-em/damtreem1.png",
+      "price": 20,
+      "quantity": 1,
+      "type": "baby-dress",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Baby's dress 2",
+      "image": "images/dam-tre-em/damtreem2.png",
+      "price": 25,
+      "quantity": 1,
+      "type": "baby-dress",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Baby's dress 3",
+      "image": "images/dam-tre-em/vay-dam-tre-em-13-tuoi-4.png",
+      "price": 30,
+      "quantity": 1,
+      "type": "baby-dress",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Baby's dress 4",
+      "image": "images/dam-tre-em/vayconnit.jpg",
+      "price": 35,
+      "quantity": 1,
+      "type": "baby-dress",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Men's belt 1",
+      "image": "images/day-nit/DAU-NIT-4A-3.jpg",
+      "price": 40,
+      "quantity": 1,
+      "type": "men-belt",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Men's belt 2",
+      "image": "images/day-nit/daynit1.jpg",
+      "price": 45,
+      "quantity": 1,
+      "type": "men-belt",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Men's belt 3",
+      "image": "images/day-nit/daynit2.jpg",
+      "price": 50,
+      "quantity": 1,
+      "type": "men-belt",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Men's belt 4",
+      "image": "images/day-nit/daynit3.jpg",
+      "price": 20,
+      "quantity": 1,
+      "type": "men-belt",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Men's belt 5",
+      "image": "images/day-nit-nu/2B-EFA-U-BR-D_01-650x650.jpg",
+      "price": 25,
+      "quantity": 1,
+      "type": "men-belt",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Men's sport short 1",
+      "image": "images/quan-the-thao-nam/nam1.png",
+      "price": 30,
+      "quantity": 1,
+      "type": "men-sport-short",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Men's sport short 2",
+      "image": "images/quan-the-thao-nam/product-12.jpg",
+      "price": 35,
+      "quantity": 1,
+      "type": "men-sport-short",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Women's sport short 1",
+      "image": "images/quan-the-thao-nu/a12.jpg",
+      "price": 40,
+      "quantity": 1,
+      "type": "men-sport-short",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Baby's sport short 1",
+      "image": "images/quan-the-thao-tre-em/b3c9a59126877d1f81b1276e922a65a2.png",
+      "price": 45,
+      "quantity": 1,
+      "type": "men-sport-short",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Men's short 1",
+      "image": "images/short-nam/quan-short-nam-3-768x1024.jpg",
+      "price": 50,
+      "quantity": 1,
+      "type": "men-short",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Women's short 1",
+      "image": "images/short-nu/R.png",
+      "price": 20,
+      "quantity": 1,
+      "type": "men-short",
+      "use": "idk",
+      "des": "idk"
+    },    
+    {
+      "name": "Baby's short 1",
+      "image": "images/short-tre-em/short baby.png",
+      "price": 25,
+      "quantity": 1,
+      "type": "men-short",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Men's shirt 1",
+      "image": "images/so-mi-nam/so-mi-1a.jpg",
+      "price": 30,
+      "quantity": 1,
+      "type": "men-shirt",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Men's shirt 2",
+      "image": "images/so-mi-nam/so-mi-2a.jpg",
+      "price": 35,
+      "quantity": 1,
+      "type": "men-shirt",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Men's shirt 3",
+      "image": "images/so-mi-nam/so-mi-3a.jpg",
+      "price": 45,
+      "quantity": 1,
+      "type": "men-shirt",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Men's shirt 4",
+      "image": "images/so-mi-nam/so-mi-4a.jpg",
+      "price": 45,
+      "quantity": 1,
+      "type": "men-shirt",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Men's shirt 5",
+      "image": "images/so-mi-nam/so-mi-5a.jpg",
+      "price": 50,
+      "quantity": 1,
+      "type": "men-shirt",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Men's shirt 6",
+      "image": "images/so-mi-nam/so-mi-6a.jpg",
+      "price": 20,
+      "quantity": 1,
+      "type": "men-shirt",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Men's shirt 7",
+      "image": "images/so-mi-nam/SO-MI-30A.jpg",
+      "price": 25,
+      "quantity": 1,
+      "type": "men-shirt",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Men's shirt 8",
+      "image": "images/so-mi-nam/SO-MI-31A.jpg",
+      "price": 30,
+      "quantity": 1,
+      "type": "men-shirt",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Men's shirt 9",
+      "image": "images/so-mi-nam/SO-MI-38A.jpg",
+      "price": 35,
+      "quantity": 1,
+      "type": "men-shirt",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Women's shirt 1",
+      "image": "images/so-mi-nu/1.png",
+      "price": 40,
+      "quantity": 1,
+      "type": "women-shirt",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Women's shirt 2",
+      "image": "images/so-mi-nu/2.png",
+      "price": 45,
+      "quantity": 1,
+      "type": "women-shirt",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Women's shirt 3",
+      "image": "images/so-mi-nu/hinh-anh-kieu-ao-so-mi-mau-trang-tay-dai.jpg",
+      "price": 50,
+      "quantity": 1,
+      "type": "women-shirt",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Women's shirt 4",
+      "image": "images/so-mi-nu/kieu-ao-so-mi-moi-nhat.jpg",
+      "price": 20,
+      "quantity": 1,
+      "type": "women-shirt",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Women's shirt 5",
+      "image": "images/so-mi-nu/Screenshot 2022-08-26 171755.png",
+      "price": 25,
+      "quantity": 1,
+      "type": "women-shirt",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Women's shirt 6",
+      "image": "images/so-mi-nu/Screenshot 2022-08-26 171849.png",
+      "price": 30,
+      "quantity": 1,
+      "type": "women-shirt",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Women's shirt 7",
+      "image": "images/so-mi-nu/shop-ao-so-mi-nu-3.jpg",
+      "price": 35,
+      "quantity": 1,
+      "type": "women-shirt",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Baby's shirt 1",
+      "image": "images/so-mi-tre-em/CNS_2712.jpg",
+      "price": 40,
+      "quantity": 1,
+      "type": "baby-shirt",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Baby's shirt 2",
+      "image": "images/so-mi-tre-em/CNS_2726-2.jpg",
+      "price": 45,
+      "quantity": 1,
+      "type": "baby-shirt",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Baby's shirt 3",
+      "image": "images/so-mi-tre-em/CNS_2732.jpg",
+      "price": 50,
+      "quantity": 1,
+      "type": "baby-shirt",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Baby's shirt 4",
+      "image": "images/so-mi-tre-em/CNS_2736-2.jpg",
+      "price": 20,
+      "quantity": 1,
+      "type": "baby-shirt",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Baby's shirt 5",
+      "image": "images/so-mi-tre-em/CNS_2769.jpg",
+      "price": 25,
+      "quantity": 1,
+      "type": "baby-shirt",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Baby's shirt 6",
+      "image": "images/so-mi-tre-em/CNS_2777.jpg",
+      "price": 30,
+      "quantity": 1,
+      "type": "baby-shirt",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Baby's shirt 7",
+      "image": "images/so-mi-tre-em/CNS_2822.jpg",
+      "price": 35,
+      "quantity": 1,
+      "type": "baby-shirt",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Baby's shirt 8",
+      "image": "images/so-mi-tre-em/CNS_2826.jpg",
+      "price": 40,
+      "quantity": 1,
+      "type": "baby-shirt",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Baby's shirt 9",
+      "image": "images/so-mi-tre-em/CNS_2848.jpg",
+      "price": 45,
+      "quantity": 1,
+      "type": "baby-shirt",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Women's frock 1",
+      "image": "images/vay/chanvay1.png",
+      "price": 50,
+      "quantity": 1,
+      "type": "frock",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Women's frock 2",
+      "image": "images/vay/chanvay2.png",
+      "price": 20,
+      "quantity": 1,
+      "type": "frock",
+      "use": "idk",
+      "des": "idk"
+    },
+    {
+      "name": "Women's frock 3",
+      "image": "images/vay/chanvay3.png",
+      "price": 25,
+      "quantity": 1,
+      "type": "frock",
+      "use": "idk",
+      "des": "idk"
+    }
+  ]
+}
