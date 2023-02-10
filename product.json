@@ -6,17 +6,17 @@
       "price": 25,
       "quantity": 1,
       "type": "baby-t-shirt",
-      "use": "idk",
-      "des": "idk"
-    },
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
+    }, 
     {
       "name": "Baby's t-shirts 2",
       "image": "images/ao-thun-con-nit/aocam.png",
       "price": 30,
       "quantity": 1,
       "type": "baby-t-shirt",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Baby's t-shirts 3",
@@ -24,8 +24,8 @@
       "price": 35,
       "quantity": 1,
       "type": "baby-t-shirt",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Men's t-shirt 1",
@@ -33,8 +33,8 @@
       "price": 20,
       "quantity": 1,
       "type": "men-t-shirt",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Men's t-shirt 2",
@@ -42,8 +42,8 @@
       "price": 25,
       "quantity": 1,
       "type": "men-t-shirt",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Men's t-shirt 3",
@@ -51,8 +51,8 @@
       "price": 30,
       "quantity": 1,
       "type": "men-t-shirt",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Men's t-shirt 4",
@@ -60,8 +60,8 @@
       "price": 35,
       "quantity": 1,
       "type": "men-t-shirt",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Men's t-shirt 5",
@@ -69,8 +69,8 @@
       "price": 40,
       "quantity": 1,
       "type": "men-t-shirt",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Men's tie 1",
@@ -78,8 +78,8 @@
       "price": 45,
       "quantity": 1,
       "type": "men-tie",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Men's tie 2",
@@ -87,8 +87,8 @@
       "price": 50,
       "quantity": 1,
       "type": "men-tie",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Men's tie 3",
@@ -96,8 +96,8 @@
       "price": 25,
       "quantity": 1,
       "type": "men-tie",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Men's tie 4",
@@ -105,8 +105,8 @@
       "price": 30,
       "quantity": 1,
       "type": "men-tie",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Women's dress 1",
@@ -114,8 +114,8 @@
       "price": 35,
       "quantity": 1,
       "type": "women-dress",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Women's dress 2",
@@ -123,8 +123,8 @@
       "price": 40,
       "quantity": 1,
       "type": "women-dress",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Women's dress 3",
@@ -132,8 +132,8 @@
       "price": 45,
       "quantity": 1,
       "type": "women-dress",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Women's dress 4",
@@ -141,8 +141,8 @@
       "price": 50,
       "quantity": 1,
       "type": "women-dress",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Baby's dress 1",
@@ -150,8 +150,8 @@
       "price": 20,
       "quantity": 1,
       "type": "baby-dress",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Baby's dress 2",
@@ -159,8 +159,8 @@
       "price": 25,
       "quantity": 1,
       "type": "baby-dress",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Baby's dress 3",
@@ -168,8 +168,8 @@
       "price": 30,
       "quantity": 1,
       "type": "baby-dress",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Baby's dress 4",
@@ -177,8 +177,8 @@
       "price": 35,
       "quantity": 1,
       "type": "baby-dress",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Men's belt 1",
@@ -186,8 +186,8 @@
       "price": 40,
       "quantity": 1,
       "type": "men-belt",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Men's belt 2",
@@ -195,8 +195,8 @@
       "price": 45,
       "quantity": 1,
       "type": "men-belt",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Men's belt 3",
@@ -204,8 +204,8 @@
       "price": 50,
       "quantity": 1,
       "type": "men-belt",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Men's belt 4",
@@ -213,8 +213,8 @@
       "price": 20,
       "quantity": 1,
       "type": "men-belt",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Men's belt 5",
@@ -222,8 +222,8 @@
       "price": 25,
       "quantity": 1,
       "type": "men-belt",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Men's sport short 1",
@@ -231,8 +231,8 @@
       "price": 30,
       "quantity": 1,
       "type": "men-sport-short",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Men's sport short 2",
@@ -240,8 +240,8 @@
       "price": 35,
       "quantity": 1,
       "type": "men-sport-short",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Women's sport short 1",
@@ -249,8 +249,8 @@
       "price": 40,
       "quantity": 1,
       "type": "men-sport-short",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Baby's sport short 1",
@@ -258,8 +258,8 @@
       "price": 45,
       "quantity": 1,
       "type": "men-sport-short",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Men's short 1",
@@ -267,8 +267,8 @@
       "price": 50,
       "quantity": 1,
       "type": "men-short",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Women's short 1",
@@ -276,8 +276,8 @@
       "price": 20,
       "quantity": 1,
       "type": "men-short",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },    
     {
       "name": "Baby's short 1",
@@ -285,8 +285,8 @@
       "price": 25,
       "quantity": 1,
       "type": "men-short",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Men's shirt 1",
@@ -294,8 +294,8 @@
       "price": 30,
       "quantity": 1,
       "type": "men-shirt",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Men's shirt 2",
@@ -303,8 +303,8 @@
       "price": 35,
       "quantity": 1,
       "type": "men-shirt",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Men's shirt 3",
@@ -312,8 +312,8 @@
       "price": 45,
       "quantity": 1,
       "type": "men-shirt",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Men's shirt 4",
@@ -321,8 +321,8 @@
       "price": 45,
       "quantity": 1,
       "type": "men-shirt",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Men's shirt 5",
@@ -330,8 +330,8 @@
       "price": 50,
       "quantity": 1,
       "type": "men-shirt",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Men's shirt 6",
@@ -339,8 +339,8 @@
       "price": 20,
       "quantity": 1,
       "type": "men-shirt",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Men's shirt 7",
@@ -348,8 +348,8 @@
       "price": 25,
       "quantity": 1,
       "type": "men-shirt",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Men's shirt 8",
@@ -357,8 +357,8 @@
       "price": 30,
       "quantity": 1,
       "type": "men-shirt",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Men's shirt 9",
@@ -366,8 +366,8 @@
       "price": 35,
       "quantity": 1,
       "type": "men-shirt",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Women's shirt 1",
@@ -375,8 +375,8 @@
       "price": 40,
       "quantity": 1,
       "type": "women-shirt",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Women's shirt 2",
@@ -384,8 +384,8 @@
       "price": 45,
       "quantity": 1,
       "type": "women-shirt",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Women's shirt 3",
@@ -393,8 +393,8 @@
       "price": 50,
       "quantity": 1,
       "type": "women-shirt",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Women's shirt 4",
@@ -402,8 +402,8 @@
       "price": 20,
       "quantity": 1,
       "type": "women-shirt",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Women's shirt 5",
@@ -411,8 +411,8 @@
       "price": 25,
       "quantity": 1,
       "type": "women-shirt",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Women's shirt 6",
@@ -420,8 +420,8 @@
       "price": 30,
       "quantity": 1,
       "type": "women-shirt",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Women's shirt 7",
@@ -429,8 +429,8 @@
       "price": 35,
       "quantity": 1,
       "type": "women-shirt",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Baby's shirt 1",
@@ -438,8 +438,8 @@
       "price": 40,
       "quantity": 1,
       "type": "baby-shirt",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Baby's shirt 2",
@@ -447,8 +447,8 @@
       "price": 45,
       "quantity": 1,
       "type": "baby-shirt",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Baby's shirt 3",
@@ -456,8 +456,8 @@
       "price": 50,
       "quantity": 1,
       "type": "baby-shirt",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Baby's shirt 4",
@@ -465,8 +465,8 @@
       "price": 20,
       "quantity": 1,
       "type": "baby-shirt",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Baby's shirt 5",
@@ -474,8 +474,8 @@
       "price": 25,
       "quantity": 1,
       "type": "baby-shirt",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Baby's shirt 6",
@@ -483,8 +483,8 @@
       "price": 30,
       "quantity": 1,
       "type": "baby-shirt",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Baby's shirt 7",
@@ -492,8 +492,8 @@
       "price": 35,
       "quantity": 1,
       "type": "baby-shirt",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Baby's shirt 8",
@@ -501,8 +501,8 @@
       "price": 40,
       "quantity": 1,
       "type": "baby-shirt",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Baby's shirt 9",
@@ -510,8 +510,8 @@
       "price": 45,
       "quantity": 1,
       "type": "baby-shirt",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Women's frock 1",
@@ -519,8 +519,8 @@
       "price": 50,
       "quantity": 1,
       "type": "frock",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Women's frock 2",
@@ -528,8 +528,8 @@
       "price": 20,
       "quantity": 1,
       "type": "frock",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     },
     {
       "name": "Women's frock 3",
@@ -537,8 +537,8 @@
       "price": 25,
       "quantity": 1,
       "type": "frock",
-      "use": "idk",
-      "des": "idk"
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     }
   ]
 }
