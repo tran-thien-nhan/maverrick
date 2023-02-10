@@ -520,9 +520,34 @@ small {
     background-color: #D19C97;
 }
 
-.nav-item>a{
-    color: white!important;
+.nav-item>a {
+    color: white !important;
 }
-label{
-    color:black;
+
+label {
+    color: black;
+}
+
+.img-product-site {
+    width: 10rem;
+    height: 12rem;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.img-product-site:hover {
+    transform: translateY(-10px);
+}
+
+.fixed-button {
+    position: fixed;
+    right: 20px;
+    top: 20rem;
+    background-color: #D19C97;
+    transition-duration: 0.5s;
+}
+
+.fixed-button:hover {
+    background-color: white;
+    color: black;
 }
