@@ -16,9 +16,8 @@ app.config(function ($routeProvider) {
         .when("/checkout", {
             templateUrl: "checkout.html"
         })
-        .when('/detail', {
-            templateUrl: 'detail.html',
-            // controller: 'ProductController'
+        .when("/detail", {
+            templateUrl: "detail.html"
         })
         .when("/cart", {
             templateUrl: "cart.html"
@@ -39,20 +38,20 @@ app.controller("MainController", function ($scope, $http, $location) {
         $scope.products = response.data.products;
     });
     // modal
-    $scope.showProduct = function (product) {
-        $scope.selectedProduct = product;
+    $scope.showProduct = function(product) {
+        $location.path('/detail').search({product: product});
     };
 
     $scope.filterProducts = function (filterType) {
         $scope.searchTerm = filterType;
     };
-
-    $scope.viewMore = function (product) {
-        $location.path('/detail').search({ 'product': JSON.stringify(product) });
-    };
 });
 
-app.controller('myController', function ($scope, $http) {
+app.controller('DetailController', function($scope, $location) {
+    $scope.product = $location.search().product;
+});
+
+app.controller('myController', function ($scope, $http, $location) {
 
     $scope.cart = [];
 
@@ -86,7 +85,7 @@ app.controller('myController', function ($scope, $http) {
         // if (!paymentOption) {
         //     alert('Thank you !');
         // };
-        alert('Thank you !');
+        // alert('Thank you !');
     };
 
     $scope.placeOrder = function () {
@@ -121,10 +120,9 @@ app.controller('myController', function ($scope, $http) {
             $scope.sortReverse = true;
         }
     }
-
-
-
 });
+
+
 
 app.directive("quantityButtons", function () {
     return {
@@ -274,8 +272,3 @@ function topFunction() {
 $("#selectedProduct").click(function () {
     $(this).toggleClass("active");
 });
-
-
-
-
-
