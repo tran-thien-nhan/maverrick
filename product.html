@@ -1,10 +1,15 @@
 <!-- class="navbar-toggler-icon" -->
+<a href="#!/cart" class="btn btn-primary btn-lg fixed-button">
+    <i class="fas fa-shopping-cart"></i>
+</a>
+
 <div class="row mb-3 ml-5 mr-5 mt-2">
     <!-- CATEGORIES START -->
     <div class="d-flex justify-content-center align-items-center text-center row col-6">
         <nav class="navbar navbar-expand-lg navbar-light col-12">
             <div class="dropdown">
-                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" style="background-color: #D19C97;color:white;">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"
+                    style="background-color: #D19C97;color:white;">
                     Categories
                 </button>
                 <div class="dropdown-menu">
@@ -53,8 +58,8 @@
     <div ng-repeat="product in products | filter:searchTerm | orderBy:sortType:sortReverse | filter:{type:selectedType}"
         class="d-flex flex-column align-items-center mt-5 product col-sm-4 col-6">
         <div>
-            <a href="" ng-click="showProduct(product)" data-toggle="modal" data-target="#productModal"><img
-                    ng-src="{{product.image}}" alt="" class="img-fluid" style="width:10rem; height: 12rem;"></a>
+            <a ng-click="showProduct(product)"><img ng-src="{{product.image}}" alt=""
+                    class="img-fluid img-product-site"></a>
         </div>
         <div class="d-flex justify-content-center">
             <label>{{product.name}}</label>
@@ -72,47 +77,6 @@
             <button class="btn btn-primary col-12 mb-1" style="background-color: #D19C97;color: white; width:100%;"
                 ng-click="addToCart(product, product.quantity)">add to
                 cart</button>
-            <!-- MODAL -->
-            <div class="modal fade" id="productModal" tabindex="-1" role="dialog" aria-labelledby="productModalLabel"
-                aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body row">
-                            <div class="img-modal col-6">
-                                <img ng-src="{{selectedProduct.image}}" id="selectedProduct" />
-                            </div>
-                            <div class="des-modal col-6">
-                                <h3 class="modal-title" id="productModalLabel">{{selectedProduct.name}}</h3>
-                                <label class="label-modal">Price:</label>
-                                {{selectedProduct.price | currency}} <br>
-                                <label class="label-modal">Quantity:</label>
-                                {{selectedProduct.quantity}} <br>
-                                <label class="label-modal">Type:</label>
-                                {{selectedProduct.type}} <br>
-                                <label class="label-modal">Use:</label>
-                                {{selectedProduct.use}} <br>
-                                <label class="label-modal">Description:</label>
-                                {{selectedProduct.des}} <br>
-                            </div>
-                        </div>
-                        <div class="modal-footer">
-                            <button class="btn btn-primary"
-                                ng-click="addToCart(selectedProduct, selectedProduct.quantity)" style="background-color: #D19C97;color: white;">add to
-                                cart</button><br>
-                                <button class="btn btn-primary" style="background-color: #D19C97;color: white;">
-                                    <a href="#!/detail" target="_blank" style="text-decoration:none; color:white;">view more</a>
-                                </button><br>
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- END MODAL -->
         </div>
     </div>
 </div>
