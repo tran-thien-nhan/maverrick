@@ -1,23 +1,24 @@
 <!-- Shop Detail Start -->
-<div ng-controller="myCTRL">
+<a href="#!/cart" class="btn btn-primary btn-lg fixed-button">
+    <i class="fas fa-shopping-cart"></i>
+</a>
+<div ng-controller="DetailController">
     <div class="container-fluid py-5">
         <div class="row px-xl-5">
             <div class="col-lg-5 pb-5">
-                <img class="w-100 h-100" src="images/ao-thun-nam/aothunnam1.jpg" alt="Image">
+                <img class="w-100 h-100" ng-src="{{product.image}}" alt="Image">
             </div>
 
             <div class="col-lg-7 pb-5">
-                <h3 class="font-weight-semi-bold">Men's t-shirt 1</h3>
+                <h3 class="font-weight-semi-bold">{{product.name}}</h3>
                 <div class="d-flex mb-3">
                     <div>
                         <rating-star rating-value="rating"></rating-star>
                     </div>
                     <small class="pt-1">(50 Reviews)</small>
                 </div>
-                <h3 class="font-weight-semi-bold mb-4">$20</h3>
-                <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nostrum, voluptatem ea
-                    commodi consectetur soluta dolorum et voluptatibus dolorem porro eligendi assumenda iusto corrupti
-                    nam officia architecto nihil amet ducimus.</p>
+                <h3 class="font-weight-semi-bold mb-4">${{product.price}}</h3>
+                <p class="mb-4">{{product.des}}</p>
                 <div class="d-flex mb-3">
                     <p class="text-dark font-weight-medium mb-0 mr-3">Sizes:</p>
                     <form>
@@ -72,7 +73,7 @@
                     <quantity-buttons quantity="product.quantity"></quantity-buttons>
                 </div>
                 <button class="btn btn-primary col-12 mb-1"
-                    style="background-color: #D19C97;color: white; width:100%;">add to
+                    style="background-color: #D19C97;color: white; width:100%;" ng-click="addToCart(product, product.quantity)">add to
                     cart</button>
             </div>
             <div class="d-flex pt-2">
