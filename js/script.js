@@ -37,9 +37,9 @@ app.controller("MainController", function ($scope, $http, $location) {
     $http.get('product.json').then(function (response) {
         $scope.products = response.data.products;
     });
-    // modal
-    $scope.showProduct = function(product) {
-        $location.path('/detail').search({product: product});
+
+    $scope.showProduct = function (product) {
+        $location.path('/detail').search({ product: product });
     };
 
     $scope.filterProducts = function (filterType) {
@@ -47,7 +47,7 @@ app.controller("MainController", function ($scope, $http, $location) {
     };
 });
 
-app.controller('DetailController', function($scope, $location) {
+app.controller('DetailController', function ($scope, $location) {
     $scope.product = $location.search().product;
 });
 
@@ -69,7 +69,10 @@ app.controller('myController', function ($scope, $http, $location) {
             image: product.image,
             quantity: quantity
         });
+
     };
+
+
 
     $scope.getTotal = function () {
         var total = 0;
@@ -120,6 +123,7 @@ app.controller('myController', function ($scope, $http, $location) {
             $scope.sortReverse = true;
         }
     }
+
 });
 
 
@@ -156,11 +160,13 @@ app.directive('ratingStar', function () {
             ratingValue: '='
         },
         template: `
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>
-        <i class="fa fa-star"></i>`
+        <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star star-zero"></i>
+        </div>`
     };
 });
 
@@ -272,3 +278,6 @@ function topFunction() {
 $("#selectedProduct").click(function () {
     $(this).toggleClass("active");
 });
+
+
+
