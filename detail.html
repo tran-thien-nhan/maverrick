@@ -1,7 +1,10 @@
 <!-- Shop Detail Start -->
-<a href="#!/cart" class="btn btn-primary btn-lg fixed-button">
-    <i class="fas fa-shopping-cart"></i>
-</a>
+<div class="product-container">
+    <a href="#!/cart" class="btn btn-primary btn-lg fixed-button bag-icon">
+        <i class="fa-sharp fa-solid fa-bag-shopping"></i>
+    </a>
+</div>
+
 <div ng-controller="DetailController">
     <div class="container-fluid py-5">
         <div class="row px-xl-5">
@@ -23,23 +26,28 @@
                     <p class="text-dark font-weight-medium mb-0 mr-3">Sizes:</p>
                     <form>
                         <div class="custom-control custom-radio custom-control-inline">
-                            <input type="radio" class="custom-control-input" id="size-1" name="size">
+                            <input type="radio" class="custom-control-input" id="size-1" ng-model="size" name="size"
+                                value="XS">
                             <label class="custom-control-label" for="size-1">XS</label>
                         </div>
                         <div class="custom-control custom-radio custom-control-inline">
-                            <input type="radio" class="custom-control-input" id="size-2" name="size">
+                            <input type="radio" class="custom-control-input" id="size-2" ng-model="size" name="size"
+                                value="S">
                             <label class="custom-control-label" for="size-2">S</label>
                         </div>
                         <div class="custom-control custom-radio custom-control-inline">
-                            <input type="radio" class="custom-control-input" id="size-3" name="size">
+                            <input type="radio" class="custom-control-input" id="size-3" ng-model="size" name="size"
+                                value="M">
                             <label class="custom-control-label" for="size-3">M</label>
                         </div>
                         <div class="custom-control custom-radio custom-control-inline">
-                            <input type="radio" class="custom-control-input" id="size-4" name="size">
+                            <input type="radio" class="custom-control-input" id="size-4" ng-model="size" name="size"
+                                value="L">
                             <label class="custom-control-label" for="size-4">L</label>
                         </div>
                         <div class="custom-control custom-radio custom-control-inline">
-                            <input type="radio" class="custom-control-input" id="size-5" name="size">
+                            <input type="radio" class="custom-control-input" id="size-5" ng-model="size" name="size"
+                                value="XL">
                             <label class="custom-control-label" for="size-5">XL</label>
                         </div>
                     </form>
@@ -69,11 +77,18 @@
                         </div>
                     </form>
                 </div>
-                <div class="d-flex align-items-center mb-4 pt-2">
-                    <quantity-buttons quantity="product.quantity"></quantity-buttons>
+                <div class="row w-60">
+                    <div class="d-flex align-items-center mb-4 pt-2 col-sm-3">
+                        <quantity-buttons quantity="product.quantity"></quantity-buttons>
+                    </div>
+                    <div class="col-sm-9 mt-1">
+                        <button class="btn" style="background-color:#D19C97;"><a class="text-white" href="#!/product"
+                            style="text-decoration:none;">previous
+                            page</a></button>
+                    </div>
                 </div>
-                <button class="btn btn-primary col-12 mb-1"
-                    style="background-color: #D19C97;color: white; width:100%;" ng-click="addToCart(product, product.quantity)">add to
+                <button class="btn btn-primary col-12 mb-1" style="background-color: #D19C97;color: white; width:100%;"
+                    ng-click="addToCart(product, product.quantity)">add to
                     cart</button>
             </div>
             <div class="d-flex pt-2">
@@ -96,4 +111,50 @@
         </div>
     </div>
     <!-- Shop Detail End -->
+</div>
+
+<button type="button" class="btn cart-product-site" data-toggle="modal" data-target="#myModalcart">
+    <i class="fa-sharp fa-solid fa-cart-plus"></i>
+</button>
+
+<!-- The Modal -->
+<div class="modal fade" id="myModalcart">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <!-- Modal Header -->
+            <div class="modal-header">
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+                <div class="cart ml-3 w-100">
+                    <div class="name d-flex align-items-center justify-content-center">YOUR PRODUCTS HERE</div>
+                    <div class="listCart row">
+                        <div ng-repeat="cartProduct in cart" style="width:fit-content;" class="col-6 mt-2">
+                            <div class="d-flex">
+                                <img ng-src="{{cartProduct.image}}" alt="" class="img-fluid img-product-site">
+                            </div>
+                            <div class="row">
+                                <div class="d-flex col-6">
+                                    {{cartProduct.name}} x {{cartProduct.quantity}}
+                                </div>
+                                <div class="d-flex col-6">
+                                    <button class="btn btn-lg" ng-click="removeItem(item)"><i
+                                            class="fas fa-trash-alt"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+    </div>
 </div>
