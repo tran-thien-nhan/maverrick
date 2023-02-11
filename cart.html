@@ -1,3 +1,4 @@
+<!-- ng-controller="CartController" -->
 <div class="container-fluid pt-5">
   <div class="row px-xl-5">
     <div class="col-lg-8 table-responsive mb-5">
@@ -15,7 +16,7 @@
           <tr ng-repeat="item in cart">
             <td class="align-middle text-left">
               <img src="{{item.image}}" alt="" style="width:4rem; height:4rem;">
-              {{item.name}}
+              {{item.name}} (Size: {{size}})
             </td>
             <td class="align-middle text-center">
               <quantity-buttons quantity="item.quantity"></quantity-buttons>
@@ -23,7 +24,8 @@
             <td class="align-middle text-center">${{item.price}}</td>
             <td class="align-middle text-center">${{item.quantity * item.price}}</td>
             <td class="align-middle text-center">
-              <button class="btn btn-danger btn-sm" ng-click="removeItem(item)">x</button>
+              <button class="btn btn-danger btn-sm" ng-click="removeItem(item)"><i class="fas fa-trash-alt"></i>
+              </button>
             </td>
           </tr>
         </tbody>
@@ -34,7 +36,8 @@
         <div class="input-group">
           <input type="text" class="form-control p-4" placeholder="Coupon Code">
           <div class="input-group-append">
-            <button class="btn btn-primary" style="background-color:#D19C97;color:white; border-color: #D19C97;">Apply Coupon</button>
+            <button class="btn btn-primary" style="background-color:#D19C97;color:white; border-color: #D19C97;">Apply
+              Coupon</button>
           </div>
         </div>
       </form>
