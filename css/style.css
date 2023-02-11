@@ -3,6 +3,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+:root {
+    --tim-hong: #D19C97;
+}
+
 img {
     width: 10rem;
     height: 10rem;
@@ -26,6 +30,11 @@ img {
     justify-content: center;
     width: calc(33.33% - 15px);
     margin-bottom: 20px;
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
 }
 
 .group-input {
@@ -343,7 +352,7 @@ nav {
 }
 
 .icon>.text-primary {
-    color: #D19C97 !important;
+    color: var(--tim-hong) !important;
 }
 
 /* .shop-product {
@@ -359,9 +368,13 @@ nav {
     width: 5rem;
 } */
 
+.container-product {
+    position: relative;
+}
+
 .img-home-product {
-    width: 8rem;
-    height: 9rem;
+    width: 30rem;
+    height: 30rem;
     transition-duration: 0.4s;
 }
 
@@ -371,7 +384,7 @@ nav {
 }
 
 .spts {
-    background-color: #D19C97;
+    background-color: var(--tim-hong);
     color: white;
     width: fit-content;
 }
@@ -491,7 +504,7 @@ small {
 
 .fa.fa-quote-left {
     font-size: 34px;
-    color: #D19C97;
+    color: var(--tim-hong);
 }
 
 .col-sm-3 p {
@@ -510,14 +523,14 @@ small {
     width: 100%;
     padding: 10px;
     text-align: center;
-    background-color: #D19C97;
+    background-color: var(--tim-hong);
     color: white;
-    border-color: #D19C97;
+    border-color: var(--tim-hong);
 }
 
 .dropdown-menu {
     width: 200px;
-    background-color: #D19C97;
+    background-color: var(--tim-hong);
 }
 
 .nav-item>a {
@@ -530,7 +543,7 @@ label {
 
 .img-product-site {
     width: 10rem;
-    height: 12rem;
+    height: 14rem;
     cursor: pointer;
     transition-duration: 0.5s;
 }
@@ -539,15 +552,48 @@ label {
     transform: translateY(-10px);
 }
 
-.fixed-button {
-    position: fixed;
-    right: 20px;
-    top: 20rem;
-    background-color: #D19C97;
-    transition-duration: 0.5s;
+.product-container {
+    position: relative;
 }
 
-.fixed-button:hover {
+.bag-icon {
+    position: fixed;
+    font-size: 1.5rem;
+    padding: 1rem;
+    right: 20px;
+    top: 29rem;
+    background-color: var(--tim-hong);
+    border-color: var(--tim-hong);
+    transition-duration: 0.5s;
+    z-index: 1;
+}
+
+.cart-product-site {
+    position: fixed;
+    font-size: 1.5rem;
+    padding: 0.82rem;
+    right: 20px;
+    top: 24rem;
+    background-color: var(--tim-hong);
+    border-color: var(--tim-hong);
+    transition-duration: 0.5s;
+    z-index: 1;
+    color: white;
+}
+
+.bag-icon:hover,
+.cart-product-site:hover {
     background-color: white;
     color: black;
 }
+
+.rating .fa {
+    color: #ff523b;
+}
+
+.rating .star-zero {
+    border-color: #ff523b;
+    color: gray;
+    opacity: 0.6;
+}
+
