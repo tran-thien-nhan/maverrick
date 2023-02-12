@@ -373,8 +373,8 @@ nav {
 }
 
 .img-home-product {
-    width: 30rem;
-    height: 30rem;
+    width: 10rem;
+    height: 10rem;
     transition-duration: 0.4s;
 }
 
@@ -389,28 +389,7 @@ nav {
     width: fit-content;
 }
 
-/* Offer */
-/* .offer{
-    background: radial-gradient(#fff, #ffd6d6);
-    margin-top: 80px;
-    padding: 30px 0;
-}
-.col-2 .offer-img{
-    padding: 50px;
-    width: 5rem;
-    height: 5rem;
-}
-small{
-    color: #555;
-    text-align: center;
-}
-.h1-offer{
-    font-size: 50px;
-    line-height: 60px;
-    margin: 25px 0;
-} */
 
-/* Offer */
 .offer {
     background: radial-gradient(#fff, #ffd6d6);
     margin-top: 80px;
@@ -595,5 +574,129 @@ label {
     border-color: #ff523b;
     color: gray;
     opacity: 0.6;
+}
+
+h1 {
+    font-size: xxx-large;
+    font-weight: 100;
+}
+
+.time .item {
+    position: relative;
+}
+
+.time {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    column-gap: 20px;
+    grid-template-rows: 100px;
+    margin: 0;
+    padding-bottom: 1rem;
+    font-family: system-ui;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+
+#day,
+#hour,
+#minute,
+#seconds {
+    padding: 1rem;
+    font-size: xxx-large;
+    font-weight: bold;
+}
+
+.time .item::before,
+.time .item::after {
+    position: absolute;
+    width: 6px;
+    height: 20px;
+    background-color: white;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.time .item::after {
+    left: unset;
+    right: 0;
+}
+
+.pagination {
+    padding: 10px;
+    text-align: center;
+    list-style: none;
+}
+
+.pagination li a {
+    padding: 20px;
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #555;
+}
+
+.pagination li {
+    background-color: #ffffffBD;
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #555;
+    transition-duration: 0.5s;
+}
+
+.pagination li:hover {
+    background-color: var(--tim-hong);
+    color: white;
+}
+
+.go-back {
+    background-color: var(--tim-hong);
+    color: white;
+    border-color: var(--tim-hong);
+    font-size: 1.25rem;
+    transition-duration: 0.5s;
+}
+
+.go-back:hover {
+    background-color: white;
+    font-size: 1.25rem;
+    color: black;
+    border-color: black;
+}
+
+.container-clock {
+    position: fixed;
+    bottom: -9rem;
+    left: 5px;
+    width: fit-content;
+    height: fit-content;
+    line-height: 1rem;
+    background-color: #555;
+    color: white;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: scroll-left 10s linear infinite;
+    border: none;
+    width: fit-content;
+    margin: auto;
+    border-radius: 1rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    margin-bottom:10rem;
+    flex-direction: column;
+}
+
+.container-clock>p {
+    font-size: 1.2em;
+    color: white;
 }
 
