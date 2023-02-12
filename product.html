@@ -5,7 +5,6 @@
     </a>
 </div>
 
-
 <div class="row mb-3 ml-5 mr-5 mt-2">
     <!-- CATEGORIES START -->
     <div class="d-flex justify-content-center align-items-center text-center row col-12 col-sm-6 col-md-6 col-lg-6">
@@ -15,7 +14,7 @@
                     style="background-color: #D19C97;color:white;">
                     Categories
                 </button>
-                <div class="dropdown-menu">
+                <div class="dropdown-menu pb-0 pt-0">
                     <a class="btn btn-primary" ng-click="selectedType='baby-t-shirt'" style="cursor:pointer;">Baby's
                         t-shirts</a>
                     <a class="btn btn-primary" ng-click="selectedType='men-t-shirt'" style="cursor:pointer;">Men's
@@ -41,6 +40,7 @@
                         shirt</a>
                     <a class="btn btn-primary" ng-click="selectedType='frock'" style="cursor:pointer;">Women's
                         frock</a>
+                    <a class="btn btn-primary" ng-click="selectedType='other'" style="cursor:pointer;"> Other</a>
                 </div>
             </div>
         </nav>
@@ -83,7 +83,8 @@
                                     {{cartProduct.name}} x {{cartProduct.quantity}}
                                 </div>
                                 <div class="d-flex col-6">
-                                    <button class="btn btn-lg" ng-click="removeItem(cartProduct)"><i class="fas fa-trash-alt"></i>
+                                    <button class="btn btn-lg" ng-click="removeItem(cartProduct)"><i
+                                            class="fas fa-trash-alt"></i>
                                     </button>
                                 </div>
                             </div>
@@ -102,9 +103,17 @@
 </div>
 
 <div class="shop-product row" ng-controller="MainController">
-    <div class="list col-sm-12 row">
-        <div ng-repeat="product in products | filter:searchTerm | orderBy:sortType:sortReverse | filter:{type:selectedType}"
-            class="d-flex flex-column align-items-center mt-5 product col-sm-3 col-12">
+    <div class="row container-fluid">
+        <div class="col-sm-4 col-0"></div>
+        <div class="col-sm-4 col-12">
+            <!-- cụm code tái sử dụng -->
+            <pagination current-page="currentPage" total-items="totalItems" page-size="pageSize"></pagination>
+        </div>
+        <div class="col-sm-4 col-0"></div>
+    </div>
+    <div class="list col-sm-12 row lists">
+        <div ng-repeat="product in products | filter:searchTerm | orderBy:sortType:sortReverse | filter:{type:selectedType} | limitTo: pageSize : (currentPage - 1) * pageSize"
+            class="d-flex flex-column align-items-center mt-5 product col-sm-3 col-12 items">
             <div>
                 <a ng-click="showProduct(product)"><img ng-src="{{product.image}}" alt=""
                         class="img-fluid img-product-site"></a>
@@ -129,5 +138,13 @@
                     cart</button>
             </div>
         </div>
+    </div>
+    <div class="row container-fluid">
+        <div class="col-sm-4 col-0"></div>
+        <div class="col-sm-4 col-12">
+            <!-- cụm code tái sử dụng -->
+            <pagination current-page="currentPage" total-items="totalItems" page-size="pageSize"></pagination>
+        </div>
+        <div class="col-sm-4 col-0"></div>
     </div>
 </div>
