@@ -6,7 +6,12 @@
 </div>
 
 <div ng-controller="DetailController">
-    <div class="container-fluid py-5">
+    <div class="container-fluid py-1">
+        <div class="pb-1 ml-5">
+            <button onclick="history.back()" class="btn go-back">
+              Back
+            </button>
+          </div>
         <div class="row px-xl-5">
             <div class="col-lg-5 pb-5">
                 <img class="w-100 h-100" ng-src="{{product.image}}" alt="Image">
@@ -80,11 +85,6 @@
                 <div class="row w-60">
                     <div class="d-flex align-items-center mb-4 pt-2 col-sm-3">
                         <quantity-buttons quantity="product.quantity"></quantity-buttons>
-                    </div>
-                    <div class="col-sm-9 mt-1">
-                        <button class="btn" style="background-color:#D19C97;"><a class="text-white" href="#!/product"
-                            style="text-decoration:none;">previous
-                            page</a></button>
                     </div>
                 </div>
                 <button class="btn btn-primary col-12 mb-1" style="background-color: #D19C97;color: white; width:100%;"
