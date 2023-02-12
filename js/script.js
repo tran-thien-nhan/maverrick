@@ -45,6 +45,11 @@ app.controller("MainController", function ($scope, $http, $location) {
     $scope.filterProducts = function (filterType) {
         $scope.searchTerm = filterType;
     };
+
+    $scope.currentPage = 1;
+    $scope.totalItems = 65;
+    $scope.pageSize = 20;
+
 });
 
 app.controller('DetailController', function ($scope, $location) {
@@ -72,8 +77,6 @@ app.controller('myController', function ($scope, $http, $location) {
 
     };
 
-
-
     $scope.getTotal = function () {
         var total = 0;
         for (var i = 0; i < $scope.cart.length; i++) {
@@ -82,14 +85,6 @@ app.controller('myController', function ($scope, $http, $location) {
         return total;
     };
 
-    $scope.buy = function () {
-        // Add implementation for processing the payment
-        // let paymentOption = document.querySelector('input[name="payment_option"]:checked');
-        // if (!paymentOption) {
-        //     alert('Thank you !');
-        // };
-        // alert('Thank you !');
-    };
 
     $scope.placeOrder = function () {
         let paymentOption = document.querySelector('input[name="payment_option"]:checked');
@@ -126,6 +121,58 @@ app.controller('myController', function ($scope, $http, $location) {
 
 });
 
+app.controller('myCtrl', function ($scope, $interval) {
+    $scope.days = 3;
+    $scope.hours = 5;
+    $scope.minutes = 10;
+    $scope.seconds = 59;
+
+    $interval(function () {
+        $scope.seconds--;
+        if ($scope.seconds < 0) {
+            $scope.minutes--;
+            $scope.seconds = 59;
+        }
+        if ($scope.minutes < 0) {
+            $scope.hours--;
+            $scope.minutes = 59;
+        }
+        if ($scope.hours < 0) {
+            $scope.days--;
+            $scope.hours = 59;
+        }
+        if ($scope.days < 0) {
+            return;
+        }
+    }, 1000);
+});
+
+app.directive('clock', function ($interval) {
+    return {
+        restrict: 'E',
+        template:
+            '<div class="container-clock btn d-flex flex-column text-center" ng-click="toggleDetails()">' +
+            '<p ng-show="!showDetails" class="pt-3">info</p>' +
+            '<p ng-show="showDetails" class="pt-2">{{currentDate}} - {{currentTime}}</p>' +
+            '<p ng-show="showDetails" class="">391a, Nam Kỳ Khởi Nghĩa,</p>' +
+            '<p ng-show="showDetails" class="">phường 14, quận 3, tphcm</p>' +
+            '</div>',
+        scope: {},
+        link: function (scope) {
+            // Lấy thời gian hiện tại
+            $interval(function () {
+                scope.currentDate = new Date().toLocaleDateString();
+                scope.currentTime = new Date().toLocaleTimeString();
+            }, 1000);
+            // Điều khiển hiển thị thông tin
+            scope.showDetails = false;
+            scope.toggleDetails = function () {
+                scope.showDetails = !scope.showDetails;
+            };
+        }
+    };
+});
+
 
 
 app.directive("quantityButtons", function () {
@@ -154,6 +201,42 @@ app.directive("quantityButtons", function () {
     };
 });
 
+//cụm code tái sử dụng
+app.directive("pagination", function () {
+    return {
+        restrict: "E",
+        scope: {
+            currentPage: "=",
+            totalItems: "=",
+            pageSize: "="
+        },
+        template:
+            '<ul class="pagination align-item-center">' +
+            '<li ng-repeat="page in pages()" ng-class="{active: page == currentPage}">' +
+            '<a ng-click="selectPage(page)">{{page}}</a>' +
+            '</li>' +
+            '</ul>',
+        link: function (scope) {
+            scope.pages = function () {
+                var pages = [];
+                for (var i = 1; i <= scope.totalPages; i++) {
+                    pages.push(i);
+                }
+                return pages;
+            };
+
+            scope.selectPage = function (page) {
+                scope.currentPage = page;
+            };
+
+            scope.$watch("totalItems", function () {
+                scope.totalPages = Math.ceil(scope.totalItems / scope.pageSize);
+            });
+        }
+    };
+});
+
+
 app.directive('ratingStar', function () {
     return {
         scope: {
@@ -178,86 +261,6 @@ if (localStorage.getItem("visits") === null) {
     localStorage.setItem("visits", parseInt(localStorage.getItem("visits")) + 1);
 };
 
-// hiển thị ngày, giờ, vị trí
-const tickerContainer = document.createElement('div');
-tickerContainer.style.textAlign = 'center';
-document.body.appendChild(tickerContainer);
-
-const ticker = document.createElement('div');
-ticker.style.position = 'fixed';
-ticker.style.bottom = 0;
-ticker.style.left = 0;
-ticker.style.right = 0;
-ticker.style.backgroundColor = '#D19C97';
-ticker.style.color = 'black';
-ticker.style.fontWeight = 'bolder';
-ticker.style.padding = '10px';
-ticker.style.overflow = 'hidden';
-ticker.style.whiteSpace = 'nowrap';
-ticker.style.animation = 'scroll-left 10s linear infinite';
-ticker.style.textAlign = 'center';
-ticker.style.opacity = '0.7';
-ticker.style.width = 'fit-content';
-ticker.style.display = 'flex';
-ticker.style.margin = 'auto';
-ticker.style.borderRadius = '2rem';
-ticker.style.marginBottom = '0.5rem';
-ticker.style.display = 'none';
-document.body.appendChild(ticker);
-
-const updateTicker = () => {
-    let date = new Date();
-    let dateString = date.toLocaleDateString();
-    let timeString = date.toLocaleTimeString();
-    ticker.innerHTML = `${dateString}, ${timeString} <br>391a Nam Kỳ Khởi Nghĩa, phường 14, Quận 3`;
-};
-
-const button = document.createElement('button');
-button.innerHTML = 'Info';
-button.style.position = 'fixed';
-button.style.bottom = 0;
-button.style.left = 0;
-button.style.backgroundColor = '#D19C97';
-button.style.color = 'black';
-ticker.style.fontWeight = 'bolder';
-button.style.padding = '10px';
-button.style.overflow = 'hidden';
-button.style.whiteSpace = 'nowrap';
-button.style.animation = 'scroll-left 10s linear infinite';
-button.style.textAlign = 'center';
-button.style.opacity = '0.7';
-button.style.width = 'fit-content';
-button.style.display = 'flex';
-button.style.margin = 'auto';
-button.style.borderRadius = '2rem';
-button.style.marginBottom = '0.5rem';
-document.body.appendChild(button);
-
-let isInfoDisplayed = false;
-
-button.addEventListener('click', () => {
-    if (!isInfoDisplayed) {
-        let date = new Date();
-        let dateString = date.toLocaleDateString();
-        let timeString = date.toLocaleTimeString();
-        button.style.opacity = 0;
-        setTimeout(() => {
-            button.innerHTML = `${dateString}, ${timeString} <br>391a Nam Kỳ Khởi Nghĩa, phường 14, Quận 3`;
-            button.style.transition = 'all 0.5s ease-in';
-            button.style.opacity = 1;
-        }, 500);
-        isInfoDisplayed = true;
-    } else {
-        button.style.opacity = 0;
-        setTimeout(() => {
-            button.innerHTML = 'Info';
-            button.style.transition = 'all 0.5s ease-out';
-            button.style.opacity = 0.6;
-        }, 500);
-        isInfoDisplayed = false;
-    }
-});
-
 //nút top
 var mybutton = document.getElementById("myBtn");
 window.onscroll = function () { scrollFunction() };
@@ -278,6 +281,4 @@ function topFunction() {
 $("#selectedProduct").click(function () {
     $(this).toggleClass("active");
 });
-
-
 
