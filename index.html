@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Store</title>
+    <title>Maverick</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -35,7 +35,7 @@
 <body ng-controller="myController">
     <nav class="navbar navbar-expand-lg row" style="background-color:#D19C97;color:white;">
         <div class="logo col-6 ml-4">
-            <div class="counting" style="background-color:#D19C97;color:white;margin-top:2rem;">
+            <div class="counting chung" style="background-color:#D19C97;color:white;margin-top:2rem;">
                 <script>document.write(localStorage.getItem("visits"));</script>
             </div>
             <a class="navbar-brand" href="#"><img src="images/logo/Maverrick-1.png"
@@ -52,37 +52,37 @@
                 </li>
                 <!-- nút home -->
                 <li class="nav-item">
-                    <a class="nav-link" href="#!/" style="color:white;">
+                    <a class="nav-link chung-1" href="#!/">
                         Home
                     </a>
                 </li>
                 <!-- nút product -->
                 <li class="nav-item">
-                    <a class="nav-link" href="#!/product">
+                    <a class="nav-link chung-1" href="#!/product">
                         Product
                     </a>
                 </li>
                 <!-- nút about -->
                 <li class="nav-item">
-                    <a class="nav-link" href="#!/about">
+                    <a class="nav-link chung-1" href="#!/about">
                         About
                     </a>
                 </li>
                 <!-- nút contact -->
                 <li class="nav-item">
-                    <a class="nav-link" href="#!/contact">
+                    <a class="nav-link chung-1" href="#!/contact">
                         Contact
                     </a>
                 </li>
                 <!-- nút checkout -->
                 <li class="nav-item">
-                    <a class="nav-link" href="#!/checkout">
+                    <a class="nav-link chung-1" href="#!/checkout">
                         checkout
                     </a>
                 </li>
                 <!-- nút login -->
                 <li class="nav-item">
-                    <a class="nav-link" style="cursor:pointer;" data-toggle="modal" data-target="#loginProduct">
+                    <a class="nav-link chung-1" style="cursor:pointer;" data-toggle="modal" data-target="#loginProduct">
                         Login
                     </a>
                     <!-- The Modal -->
@@ -119,9 +119,8 @@
                                                     ng-show="loginForm.password.$error.required">Password is
                                                     required.</small>
                                             </div><br>
-                                            <button type="submit" class="btn btn-primary btn-block form-control"
-                                                ng-disabled="loginForm.$invalid"
-                                                style="background-color:#D19C97;color:white;">Sign in</button>
+                                            <a type="submit" class="btn btn-primary btn-block form-control chung"
+                                                ng-disabled="loginForm.$invalid">Sign in</a>
                                         </div>
 
                                     </form>
@@ -177,9 +176,8 @@
                                             </div>
                                         </div>
                                         <div class="form-group col-12">
-                                            <button type="submit" class="btn btn-success btn-lg btn-block col-12 mt-2"
-                                                ng-click="registerModal()"
-                                                style="background-color:#D19C97;color:white;">Register</button>
+                                            <button type="submit" class="btn btn-block col-12 mt-2 chung"
+                                                ng-click="registerModal()">Register</button>
                                         </div>
                                     </form>
 
@@ -197,9 +195,9 @@
                 </li>
                 <!-- nút cart -->
                 <li class="nav-item">
-                    <a class="nav-link" href="#!/cart">
+                    <a class="nav-link chung-1" href="#!/cart">
                         <i class="fa-sharp fa-solid fa-bag-shopping"
-                            style="width:2rem; height:2rem; margin-top: -1rem;color:white; font-size: 2rem;"></i>
+                            style="width:2rem; height:2rem; margin-top: -1rem; font-size: 2rem;"></i>
                     </a>
                 </li>
             </ul>
@@ -226,8 +224,8 @@
                             class="font-weight-bold border border-white px-3 mr-1" style="color: #D19C97;">Group
                             5</span></h1>
                 </a>
-                <p class="mb-2"><i class="fa fa-map-marker-alt mr-3" style="color: #D19C97;"></i>391a, Nam Kỳ Khởi
-                    Nghĩa, phường 14, quận 3, tphcm</p>
+                <p class="mb-2"><i class="fa fa-map-marker-alt mr-3" style="color: #D19C97;"></i>391a, Nam Ky Khoi
+                    Nghia, ward 14, district 3, hcm city</p>
             </div>
             <div class="col-lg-8 col-md-12">
                 <div class="row">
@@ -265,8 +263,7 @@
                                     required="required">
                             </div>
                             <div>
-                                <button class="btn btn-primary btn-block border-0 py-3" type="submit"
-                                    style="background-color: #D19C97;color: white;">Subscribe
+                                <button class="btn btn-primary btn-block py-3 chung" type="submit">Subscribe
                                     Now</button>
                             </div>
                         </form>
