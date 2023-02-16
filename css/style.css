@@ -7,6 +7,11 @@
     --tim-hong: #D19C97;
 }
 
+/* cho nút top di chuyển mượt hơn */
+html {
+    scroll-behavior: smooth;
+}
+
 img {
     width: 10rem;
     height: 10rem;
