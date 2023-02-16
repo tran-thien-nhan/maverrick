@@ -38,18 +38,16 @@ app.controller("MainController", function ($scope, $http, $location) {
         $scope.products = response.data.products;
     });
 
-    $scope.showProduct = function (product) {
-        $location.path('/detail').search({ product: product });
-    };
-
     $scope.filterProducts = function (filterType) {
         $scope.searchTerm = filterType;
     };
+});
 
-    $scope.currentPage = 1;
-    $scope.totalItems = 65;
-    $scope.pageSize = 20;
-
+// đọc file json
+app.controller("CartController", function ($scope, $http) {
+    $http.get('product.json').then(function (response) {
+        $scope.products = response.data.products;
+    });
 });
 
 app.controller('DetailController', function ($scope, $location) {
@@ -65,8 +63,6 @@ app.controller('myController', function ($scope, $http, $location) {
         $scope.total();
     }
 
-    $scope.cart = [];
-
     $scope.addToCart = function (product, quantity) {
         $scope.cart.push({
             name: product.name,
@@ -74,7 +70,6 @@ app.controller('myController', function ($scope, $http, $location) {
             image: product.image,
             quantity: quantity
         });
-
     };
 
     $scope.getTotal = function () {
@@ -84,6 +79,7 @@ app.controller('myController', function ($scope, $http, $location) {
         }
         return total;
     };
+
 
 
     $scope.placeOrder = function () {
@@ -119,33 +115,81 @@ app.controller('myController', function ($scope, $http, $location) {
         }
     }
 
+    //remove all
+    $scope.removeItemAll = function (item) {
+        $scope.cart = [];
+    };
 });
 
-app.controller('myCtrl', function ($scope, $interval) {
-    $scope.days = 3;
-    $scope.hours = 5;
-    $scope.minutes = 10;
-    $scope.seconds = 59;
+app.controller('myCtrl', function ($scope, $interval) { });
 
-    $interval(function () {
-        $scope.seconds--;
-        if ($scope.seconds < 0) {
-            $scope.minutes--;
-            $scope.seconds = 59;
+app.directive('showProduct', function ($location) {
+    return {
+        restrict: 'A',
+        scope: {
+            product: '='
+        },
+        link: function (scope, element, attrs) {
+            element.on('click', function () {
+                $location.path('/detail').search({ product: scope.product });
+            });
         }
-        if ($scope.minutes < 0) {
-            $scope.hours--;
-            $scope.minutes = 59;
-        }
-        if ($scope.hours < 0) {
-            $scope.days--;
-            $scope.hours = 59;
-        }
-        if ($scope.days < 0) {
-            return;
-        }
-    }, 1000);
+    };
 });
+
+app.directive('countdownTimer', function ($interval) {
+    return {
+        restrict: 'E',
+        scope: {
+            days: '=',
+            hours: '=',
+            minutes: '=',
+            seconds: '='
+        },
+        template: '<div class="countdown container text-center d-flex justify-content-center align-items-center ml-2">' +
+            '<div class="time">' +
+            '<div class="item">' +
+            '<div id="day">{{days}}</div>' +
+            'day' +
+            '</div>' +
+            '<div class="item">' +
+            '<div id="hour">{{hours}}</div>' +
+            'hour' +
+            '</div>' +
+            '<div class="item">' +
+            '<div id="minute">{{minutes}}</div>' +
+            'minute' +
+            '</div>' +
+            '<div class="item">' +
+            '<div id="seconds">{{seconds}}</div>' +
+            'seconds' +
+            '</div>' +
+            '</div>' +
+            '</div>',
+        link: function (scope) {
+            $interval(function () {
+                scope.seconds--;
+                if (scope.seconds < 0) {
+                    scope.minutes--;
+                    scope.seconds = 59;
+                }
+                if (scope.minutes < 0) {
+                    scope.hours--;
+                    scope.minutes = 59;
+                }
+                if (scope.hours < 0) {
+                    scope.days--;
+                    scope.hours = 59;
+                }
+                if (scope.days < 0) {
+                    return;
+                }
+            }, 1000);
+        }
+    };
+});
+
+
 
 app.directive('clock', function ($interval) {
     return {
@@ -154,8 +198,8 @@ app.directive('clock', function ($interval) {
             '<div class="container-clock btn d-flex flex-column text-center" ng-click="toggleDetails()">' +
             '<p ng-show="!showDetails" class="pt-3">info</p>' +
             '<p ng-show="showDetails" class="pt-2">{{currentDate}} - {{currentTime}}</p>' +
-            '<p ng-show="showDetails" class="">391a, Nam Kỳ Khởi Nghĩa,</p>' +
-            '<p ng-show="showDetails" class="">phường 14, quận 3, tphcm</p>' +
+            '<p ng-show="showDetails" class="">391a, Nam Ky Khoi Nghia</p>' +
+            '<p ng-show="showDetails" class="">ward 14, district 3, hcm city</p>' +
             '</div>',
         scope: {},
         link: function (scope) {
@@ -201,7 +245,8 @@ app.directive("quantityButtons", function () {
     };
 });
 
-//cụm code tái sử dụng
+
+//cụm code tái sử dụng pagination
 app.directive("pagination", function () {
     return {
         restrict: "E",
@@ -213,10 +258,13 @@ app.directive("pagination", function () {
         template:
             '<ul class="pagination align-item-center">' +
             '<li ng-repeat="page in pages()" ng-class="{active: page == currentPage}">' +
-            '<a ng-click="selectPage(page)">{{page}}</a>' +
+            '<a ng-click="selectPage(page)" class="chung-2">{{page}}</a>' +
             '</li>' +
             '</ul>',
         link: function (scope) {
+            scope.currentPage = 1;
+            scope.totalItems = 65;
+            scope.pageSize = 20;
             scope.pages = function () {
                 var pages = [];
                 for (var i = 1; i <= scope.totalPages; i++) {
@@ -281,4 +329,7 @@ function topFunction() {
 $("#selectedProduct").click(function () {
     $(this).toggleClass("active");
 });
+
+
+
 
