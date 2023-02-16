@@ -10,44 +10,43 @@
     <div class="d-flex justify-content-center align-items-center text-center row col-12 col-sm-6 col-md-6 col-lg-6">
         <nav class="navbar navbar-expand-lg navbar-light col-12">
             <div class="dropdown">
-                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"
-                    style="background-color: #D19C97;color:white;">
+                <button type="button" class="btn btn-primary dropdown-toggle chung" data-toggle="dropdown">
                     Categories
                 </button>
                 <div class="dropdown-menu pb-0 pt-0">
-                    <a class="btn btn-primary" ng-click="selectedType='baby-t-shirt'" style="cursor:pointer;">Baby's
+                    <a class="btn" ng-click="selectedType='baby-t-shirt'" style="cursor:pointer;">Baby's
                         t-shirts</a>
-                    <a class="btn btn-primary" ng-click="selectedType='men-t-shirt'" style="cursor:pointer;">Men's
+                    <a class="btn" ng-click="selectedType='men-t-shirt'" style="cursor:pointer;">Men's
                         t-shirt</a>
-                    <a class="btn btn-primary" ng-click="selectedType='women-dress'" style="cursor:pointer;">Women's
+                    <a class="btn" ng-click="selectedType='women-dress'" style="cursor:pointer;">Women's
                         dress</a>
-                    <a class="btn btn-primary" ng-click="selectedType='baby-dress'" style="cursor:pointer;">Baby's
+                    <a class="btn" ng-click="selectedType='baby-dress'" style="cursor:pointer;">Baby's
                         dress</a>
-                    <a class="btn btn-primary" ng-click="selectedType='men-belt'" style="cursor:pointer;">Men's
+                    <a class="btn" ng-click="selectedType='men-belt'" style="cursor:pointer;">Men's
                         belt</a>
-                    <a class="btn btn-primary" ng-click="selectedType='men-sport-short'" style="cursor:pointer;">sport
+                    <a class="btn" ng-click="selectedType='men-sport-short'" style="cursor:pointer;">sport
                         short</a>
-                    <a class="btn btn-primary" ng-click="selectedType='men-short'" style="cursor:pointer;">short</a>
-                    <a class="btn btn-primary" ng-click="selectedType='men-shirt'" style="cursor:pointer;">Men's
+                    <a class="btn" ng-click="selectedType='men-short'" style="cursor:pointer;">short</a>
+                    <a class="btn" ng-click="selectedType='men-shirt'" style="cursor:pointer;">Men's
                         shirt</a>
-                    <a class="btn btn-primary" ng-click="selectedType='women-shirt'" style="cursor:pointer;">Women's
+                    <a class="btn" ng-click="selectedType='women-shirt'" style="cursor:pointer;">Women's
                         shirt</a>
-                    <a class="btn btn-primary" ng-click="selectedType='baby-shirt'" style="cursor:pointer;">Baby's
+                    <a class="btn" ng-click="selectedType='baby-shirt'" style="cursor:pointer;">Baby's
                         shirt</a>
-                    <a class="btn btn-primary" ng-click="selectedType='women-shirt'" style="cursor:pointer;">Women's
+                    <a class="btn" ng-click="selectedType='women-shirt'" style="cursor:pointer;">Women's
                         shirt</a>
-                    <a class="btn btn-primary" ng-click="selectedType='baby-shirt'" style="cursor:pointer;">Baby's
+                    <a class="btn" ng-click="selectedType='baby-shirt'" style="cursor:pointer;">Baby's
                         shirt</a>
-                    <a class="btn btn-primary" ng-click="selectedType='frock'" style="cursor:pointer;">Women's
+                    <a class="btn" ng-click="selectedType='frock'" style="cursor:pointer;">Women's
                         frock</a>
-                    <a class="btn btn-primary" ng-click="selectedType='other'" style="cursor:pointer;"> Other</a>
+                    <a class="btn" ng-click="selectedType='other'" style="cursor:pointer;"> Other</a>
                 </div>
             </div>
         </nav>
     </div>
     <!-- CATEGORIES END -->
     <div class="col-12 col-sm-6 col-md-6 col-lg-6 d-flex justify-content-end mt-2">
-        <select class="form-control" ng-model="selectedOption" ng-change="sortByOption(selectedOption)"
+        <select class="form-control chung-2" ng-model="selectedOption" ng-change="sortByOption(selectedOption)"
             style="width:10rem;">
             <option value="">sort by</option>
             <option value="priceAsc">Price Low &#8594; High</option>
@@ -114,9 +113,9 @@
     <div class="list col-sm-12 row lists">
         <div ng-repeat="product in products | filter:searchTerm | orderBy:sortType:sortReverse | filter:{type:selectedType} | limitTo: pageSize : (currentPage - 1) * pageSize"
             class="d-flex flex-column align-items-center mt-5 product col-sm-3 col-12 items">
-            <div>
-                <a ng-click="showProduct(product)"><img ng-src="{{product.image}}" alt=""
-                        class="img-fluid img-product-site"></a>
+            <div class="nen-den-hinh" product="product">
+                <div class="nen-den"></div>
+                <img ng-src="{{product.image}}" alt="" class="img-fluid img-product-site">
             </div>
             <div class="d-flex justify-content-center">
                 <label style="color: #555;
