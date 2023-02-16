@@ -539,6 +539,42 @@
       "type": "frock",
       "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
       "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
+    },
+    {
+      "name": "Lucas Wallet",
+      "image": "images/vi-dung-lucas.jpg",
+      "price": 25,
+      "quantity": 1,
+      "type": "other",
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
+    },
+    {
+      "name": "Apple watch",
+      "image": "images/watch.png",
+      "price": 20,
+      "quantity": 1,
+      "type": "other",
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
+    },   
+    {
+      "name": "Sock",
+      "image": "images/img/vo.jpg",
+      "price": 25,
+      "quantity": 1,
+      "type": "other",
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
+    }, 
+    {
+      "name": "Apple Watch Smart Band 4",
+      "image": "images/watch/exclusive.png",
+      "price": 30,
+      "quantity": 1,
+      "type": "other",
+      "use": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?",
+      "des": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam consequatur eos fugiat molestias similique pariatur quasi, eligendi nesciunt minus cum quibusdam ipsum itaque optio, magni laudantium dicta sequi tempora vero?"
     }
   ]
 }
