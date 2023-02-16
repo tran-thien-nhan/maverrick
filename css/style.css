@@ -355,19 +355,6 @@ nav {
     color: var(--tim-hong) !important;
 }
 
-/* .shop-product {
-    display: inline-block;
-    position: relative;
-} */
-
-/* .container-product{
-    text-align: center;
-}
-
-.container-product>img{
-    width: 5rem;
-} */
-
 .container-product {
     position: relative;
 }
@@ -419,30 +406,8 @@ small {
     height: 20rem;
 }
 
-/* .menu-modal{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-} */
 
 @media (max-width: 990px) {
-    /* .modal-body>ul>li {
-        color: white;
-        width: 100%;
-        display: inline-flex;
-        align-items: center;
-        justify-content: space-between;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
-        padding: 1rem;
-    } */
 
     .menu-modal {
         width: 100%;
@@ -505,15 +470,21 @@ small {
     background-color: var(--tim-hong);
     color: white;
     border-color: var(--tim-hong);
+    transition-duration: 0.5s;
+}
+
+.dropdown-menu a:hover {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border-color: black;
 }
 
 .dropdown-menu {
     width: 200px;
     background-color: var(--tim-hong);
-}
-
-.nav-item>a {
-    color: white !important;
 }
 
 label {
@@ -527,8 +498,21 @@ label {
     transition-duration: 0.5s;
 }
 
-.img-product-site:hover {
-    transform: translateY(-10px);
+.nen-den-hinh {
+    position: relative;
+}
+
+.nen-den {
+    position: absolute;
+    width: 10rem;
+    height: 14rem;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.nen-den:hover {
+    background-color: #555;
+    opacity: 0.5;
 }
 
 .product-container {
@@ -640,36 +624,6 @@ h1 {
     color: #555;
 }
 
-.pagination li {
-    background-color: #ffffffBD;
-    display: inline-block;
-    margin: 0 10px;
-    cursor: pointer;
-    text-decoration: none;
-    color: #555;
-    transition-duration: 0.5s;
-}
-
-.pagination li:hover {
-    background-color: var(--tim-hong);
-    color: white;
-}
-
-.go-back {
-    background-color: var(--tim-hong);
-    color: white;
-    border-color: var(--tim-hong);
-    font-size: 1.25rem;
-    transition-duration: 0.5s;
-}
-
-.go-back:hover {
-    background-color: white;
-    font-size: 1.25rem;
-    color: black;
-    border-color: black;
-}
-
 .container-clock {
     position: fixed;
     bottom: -9rem;
@@ -691,12 +645,84 @@ h1 {
     justify-content: center;
     align-items: center;
     z-index: 1;
-    margin-bottom:10rem;
+    margin-bottom: 10rem;
     flex-direction: column;
 }
 
 .container-clock>p {
-    font-size: 1.2em;
+    font-size: 1rem;
     color: white;
+}
+
+/* chung - my library */
+
+.chung {
+    background-color: var(--tim-hong);
+    color: white !important;
+    border-color: var(--tim-hong);
+    transition-duration: 0.5s;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.chung:hover {
+    background-color: white;
+    color: black !important;
+    border-color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.chung-1 {
+    /* background-color: var(--tim-hong); */
+    color: white !important;
+    border-color: var(--tim-hong);
+    transition-duration: 0.5s;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.chung-1:hover {
+    /* background-color: white; */
+    color: black !important;
+    border-color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.chung-2 {
+    background-color: white;
+    color: black !important;
+    /* border-color: var(--tim-hong); */
+    transition-duration: 0.5s;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.chung-2:hover {
+    background-color: var(--tim-hong);
+    color: white !important;
+    /* border-color: var(--tim-hong); */
+    /* transition-duration: 0.5s; */
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.chung-3 {
+    /* background-color: white; */
+    color: var(--tim-hong) !important;
+    /* border-color: var(--tim-hong); */
+    transition-duration: 0.5s;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.chung-3:hover {
+    /* background-color: var(--tim-hong); */
+    color: black !important;
+    /* border-color: var(--tim-hong); */
+    /* transition-duration: 0.5s; */
+    text-decoration: none;
+    cursor: pointer;
 }
 
