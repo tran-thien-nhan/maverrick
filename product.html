@@ -111,7 +111,7 @@
     <div class="list col-sm-12 row lists">
         <div ng-repeat="product in products | filter:searchTerm | orderBy:sortType:sortReverse | filter:{type:selectedType} | limitTo: pageSize : (currentPage - 1) * pageSize"
             class="d-flex flex-column align-items-center mt-5 product col-sm-3 col-12 items">
-            <div class="nen-den-hinh" product="product">
+            <div class="nen-den-hinh" show-product product="product">
                 <div class="nen-den"></div>
                 <img ng-src="{{product.image}}" alt="" class="img-fluid img-product-site">
             </div>
