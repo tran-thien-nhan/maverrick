@@ -1,7 +1,7 @@
 <!-- ng-controller="CartController" -->
-<div class="container-fluid pt-1">
+<div class="container-fluid pt-1" ng-controller="CartController">
   <div class="pb-1 ml-5">
-    <button onclick="history.back()" class="btn go-back">
+    <button onclick="history.back()" class="btn chung">
       Back
     </button>
   </div>
@@ -35,14 +35,15 @@
           </tr>
         </tbody>
       </table>
+      <a class="btn btn-sm float-right chung mt-2" ng-click="removeItemAll(item)">remove all</a>
     </div>
     <div class="col-lg-4">
       <form class="mb-5" action="">
         <div class="input-group">
           <input type="text" class="form-control p-4" placeholder="Coupon Code">
           <div class="input-group-append">
-            <button class="btn btn-primary" style="background-color:#D19C97;color:white; border-color: #D19C97;">Apply
-              Coupon</button>
+            <a class="btn chung" style="line-height: 2rem;">Apply
+              Coupon</a>
           </div>
         </div>
       </form>
@@ -69,9 +70,8 @@
             <h5 class="font-weight-bold">Total (+ vat 5%)</h5>
             <h5 class="font-weight-bold">${{getTotal()*(1-20/100)*(1+2/100)*(1+5/100) | number:2}}</h5>
           </div>
-          <button class="btn btn-block btn-primary my-3 py-3" ng-click="buy()"
-            style="background-color:#D19C97;color:white; border-color: #D19C97;"><a href="#!/checkout"
-              style="text-decoration:none;color: white;">Proceed To Checkout</a></button>
+          <a class="btn btn-block my-3 py-3 chung" ng-click="buy()" href="#!/checkout">Proceed To
+            Checkout</a>
         </div>
       </div>
     </div>
