@@ -101,16 +101,16 @@
 
 <div class="shop-product row" ng-controller="MainController">
     <div class="row container-fluid">
-        <div class="col-sm-4 col-0"></div>
-        <div class="col-sm-4 col-12">
+        <div class="col-sm-4 col-1"></div>
+        <div class="col-sm-4 col-10">
             <!-- cụm code tái sử dụng -->
             <pagination current-page="currentPage" total-items="totalItems" page-size="pageSize"></pagination>
         </div>
-        <div class="col-sm-4 col-0"></div>
+        <div class="col-sm-4 col-1"></div>
     </div>
     <div class="list col-sm-12 row lists">
         <div ng-repeat="product in products | filter:searchTerm | orderBy:sortType:sortReverse | filter:{type:selectedType} | limitTo: pageSize : (currentPage - 1) * pageSize"
-            class="d-flex flex-column align-items-center mt-5 product col-sm-3 col-12 items">
+            class="d-flex flex-column align-items-center mt-5 product col-sm-3 col-6 items">
             <div class="nen-den-hinh" show-product product="product">
                 <div class="nen-den"></div>
                 <img ng-src="{{product.image}}" alt="" class="img-fluid img-product-site">
