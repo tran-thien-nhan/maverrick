@@ -89,8 +89,7 @@ app.controller('myController', function ($scope, $http, $location) {
         }
         else {
             alert('Thank you !');
-            
-            $window.location.reload();
+            location.reload();
         };
     }
 
