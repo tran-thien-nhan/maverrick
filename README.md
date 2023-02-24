@@ -14,8 +14,8 @@ Group 5
     Nguyễn Trọng Nghĩa                      Student1429421
     Huỳnh Tấn Anh                           Student1429832
 
-github report link: 
-eProject published at https://tran-thien-nhan.github.io/maverrick/
+github report link: https://github.com/tran-thien-nhan/maverrick/tree/main/report
+eProject published at: https://tran-thien-nhan.github.io/maverrick/
 
 ============================
 
