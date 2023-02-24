@@ -89,7 +89,8 @@ app.controller('myController', function ($scope, $http, $location) {
         }
         else {
             alert('Thank you !');
-            $scope.cart = [];
+            
+            $window.location.reload();
         };
     }
 
